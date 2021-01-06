@@ -1,0 +1,65 @@
+/*
+================================================================
+  Style For widget display
+================================================================
+*/
+
+.sidebar-book {
+    display: flex;
+}
+
+.sidebar-book .sidebar-book-image {
+    width: 30%;
+}
+
+.sidebar-book-image img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.sidebar-book .sidebar-book-content {
+    width: 58%;
+    margin-left: 20px;
+}
+
+.sidebar-book-content h6 {
+    font-size: .8rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 5px !important;
+}
+
+.sidebar-book-content h6 a {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.sidebar-book-content p {
+    font-size: 13px !important;
+}
+
+
+/*
+================================================================
+  Style for Shortcode content display
+================================================================
+*/
+
+.shortcode-content-wrap>h2 {
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.stc-content {
+    margin-bottom: 10px;
+}
+
+.stc-readmore a {
+    text-decoration: none;
+    box-shadow: none;
+    font-style: italic;
+    color: blue;
+}
+
+.stc-book-info p {
+    margin-bottom: 10px;
+}
